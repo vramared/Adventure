@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P5.js Example</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+        <script>
+            /*function setup(){
+                createCanvas(500, 500);
+                background(64);
+            }
+
+            function draw(){
+                fill(255);
+                ellipse(mouseX, mouseY, 20, 20);
+            }*/
+
+        function setup(){
+          createCanvas(710, 400);
+        }
+
+        function draw(){
+          fill(0, 12);
+          rect(0, 0, width, height);
+          fill(255);
+          //noStroke();
+          ellipse(mouseX, mouseY, 10, 10);
+
+          //Draw the offscreen buffer to the screen with image()
+          //image(pg, 150, 75);
+        }
+        </script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script>
+          $(function () {
+            var socket = io();
+
+          socket.on('mouse',
+            function(data) {
+              // Data comes in as whatever was sent, including objects
+              console.log("Received: 'mouse' " + data.x + " " + data.y);
+              // Send it to all other clients
+              socket.broadcast.emit('mouse', data);
+            }
+          );
+
+          });
+        </script>
+
+    </head>
+    <body>
+    </body>
+</html>

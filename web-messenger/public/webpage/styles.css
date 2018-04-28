@@ -1,0 +1,1007 @@
+ /*
+ <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+ </style>
+ */
+
+ /*
+
+ <div class="list-group">
+            <a href="#" class="list-group-item active">Bitcoin News</a>
+            <a href="#" class="list-group-item">Ethereum News</a>
+            <a href="#" class="list-group-item">Litecoin News</a>
+            <a href="#" class="list-group-item">Ripple News</a>
+            <a href="#" class="list-group-item">BTC News</a>
+            <a href="#" class="list-group-item">Monero News</a>
+          </div>
+
+          */
+
+/*
+
+THIS IS THE HOCKEY STICK PICTURE
+
+ <img src="https://soupiest-flashlight.000webhostapp.com/hockey.png" style="width:60px; height: 40px;">
+
+*/
+
+ body 
+ {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("../psdtowebChatv2html/images/Dark.jpg");
+ }
+
+
+ }
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1600px;
+	 height: 1200px; 
+	 overflow: hidden;
+	 z-index:0;
+} 
+
+ #Dark 
+{ 
+	 left: 145px; 
+	 top: 128px; 
+	 position: absolute; 
+	 width: 1328px;
+	 height: 892px;
+	 z-index:1;
+} 
+
+ #iFrame 
+{ 
+	 left: 505px; 
+	 top: 219px; 
+	 position: absolute; 
+	 width: 696px;
+	 height: 511px;
+	 z-index:2;
+} 
+
+ #Layer2copy 
+{ 
+	 left: 283px; 
+	 top: 877px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 103px;
+	 z-index:3;
+} 
+
+ #Layer2copy2 
+{ 
+	 left: 185px; 
+	 top: 877px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 103px;
+	 z-index:4;
+} 
+
+ #emoji4copy3 
+{ 
+	 left: 297px; 
+	 top: 903px; 
+	 position: absolute; 
+	 width: 52px;
+	 height: 52px;
+	 z-index:5;
+} 
+
+ #emoji4copy 
+{ 
+	 left: 202px; 
+	 top: 903px; 
+	 position: absolute; 
+	 width: 49px;
+	 height: 52px;
+	 z-index:6;
+} 
+
+ #Layer7 
+{ 
+	 left: 372px; 
+	 top: 876px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 104px;
+	 z-index:7;
+} 
+
+ #Layer8 
+{ 
+	 left: 453px; 
+	 top: 951px; 
+	 position: absolute; 
+	 width: 19px;
+	 height: 19px;
+	 z-index:8;
+} 
+
+ #Layer9 
+{ 
+	 left: 430px; 
+	 top: 951px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 19px;
+	 z-index:9;
+} 
+
+ #Layer10 
+{ 
+	 left: 404px; 
+	 top: 951px; 
+	 position: absolute; 
+	 width: 19px;
+	 height: 20px;
+	 z-index:10;
+} 
+
+ #Layer11 
+{ 
+	 left: 381px; 
+	 top: 951px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:11;
+} 
+
+ #Layer12 
+{ 
+	 left: 452px; 
+	 top: 919px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 19px;
+	 z-index:12;
+} 
+
+ #Layer13 
+{ 
+	 left: 429px; 
+	 top: 921px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:13;
+} 
+
+ #Layer14 
+{ 
+	 left: 405px; 
+	 top: 919px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 21px;
+	 z-index:14;
+} 
+
+ #Layer15 
+{ 
+	 left: 381px; 
+	 top: 920px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 19px;
+	 z-index:15;
+} 
+
+ #Layer16 
+{ 
+	 left: 452px; 
+	 top: 889px; 
+	 position: absolute; 
+	 width: 19px;
+	 height: 18px;
+	 z-index:16;
+} 
+
+ #Layer17 
+{ 
+	 left: 429px; 
+	 top: 889px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:17;
+} 
+
+ #Layer18 
+{ 
+	 left: 405px; 
+	 top: 888px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 19px;
+	 z-index:18;
+} 
+
+ #Layer19 
+{ 
+	 left: 381px; 
+	 top: 888px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 19px;
+	 z-index:19;
+} 
+
+ #MsgBOx 
+{ 
+	 left: 505px; 
+	 top: 796px; 
+	 position: absolute; 
+	 width: 685px;
+	 height: 204px;
+	 z-index:20;
+} 
+
+ #Graham 
+{ 
+	 left: 530px; 
+	 top: 819px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 14px;
+	 z-index:21;
+} 
+
+ #Okguyssonextupwhatdo 
+{ 
+	 left: 620px; 
+	 top: 819px; 
+	 position: absolute; 
+	 width: 509px;
+	 height: 39px;
+	 z-index:22;
+} 
+
+ #941am 
+{ 
+	 left: 530px; 
+	 top: 842px; 
+	 position: absolute; 
+	 width: 41px;
+	 height: 10px;
+	 z-index:23;
+} 
+
+ #InterestingbutIprefe 
+{ 
+	 left: 620px; 
+	 top: 885px; 
+	 position: absolute; 
+	 width: 390px;
+	 height: 17px;
+	 z-index:24;
+} 
+
+ #Mike 
+{ 
+	 left: 528px; 
+	 top: 885px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 13px;
+	 z-index:25;
+} 
+
+ #945am 
+{ 
+	 left: 527px; 
+	 top: 911px; 
+	 position: absolute; 
+	 width: 42px;
+	 height: 9px;
+	 z-index:26;
+} 
+
+ #RoundedRectangle5 
+{ 
+	 left: 504px; 
+	 top: 957px; 
+	 position: absolute; 
+	 width: 685px;
+	 height: 43px;
+	 z-index:27;
+} 
+
+ #TypeMessage 
+{ 
+	 left: 527px; 
+	 top: 971px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 16px;
+	 z-index:28;
+} 
+
+ #Layer20 
+{ 
+	 left: 185px; 
+	 top: 781px; 
+	 position: absolute; 
+	 width: 276px;
+	 height: 74px;
+	 z-index:29;
+} 
+
+ #Ellipse2 
+{ 
+	 left: 211px; 
+	 top: 790px; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 22px;
+	 z-index:30;
+} 
+
+ #Ellipse2copy 
+{ 
+	 left: 253px; 
+	 top: 790px; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 22px;
+	 z-index:31;
+} 
+
+ #Ellipse2copy2 
+{ 
+	 left: 297px; 
+	 top: 790px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 22px;
+	 z-index:32;
+} 
+
+ #Ellipse2copy3 
+{ 
+	 left: 341px; 
+	 top: 790px; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 22px;
+	 z-index:33;
+} 
+
+ #Ellipse2copy4 
+{ 
+	 left: 231px; 
+	 top: 824px; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 22px;
+	 z-index:34;
+} 
+
+ #Ellipse2copy5 
+{ 
+	 left: 275px; 
+	 top: 824px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 22px;
+	 z-index:35;
+} 
+
+ #Ellipse2copy6 
+{ 
+	 left: 319px; 
+	 top: 824px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 22px;
+	 z-index:36;
+} 
+
+ #Select 
+{ 
+	 left: 236px; 
+	 top: 829px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 12px;
+	 z-index:37;
+} 
+
+ #Layer21 
+{ 
+	 left: 414px; 
+	 top: 796px; 
+	 position: absolute; 
+	 width: 9px;
+	 height: 10px;
+	 z-index:38;
+} 
+
+ #Rectangle2 
+{ 
+	 left: 404px; 
+	 top: 825px; 
+	 position: absolute; 
+	 width: 25px;
+	 height: 9px;
+	 z-index:39;
+} 
+
+ #icons8chiseltipmarke 
+{ 
+	 left: 404px; 
+	 top: 794px; 
+	 position: absolute; 
+	 width: 26px;
+	 height: 50px;
+	 z-index:40;
+} 
+
+ #Forls 
+{ 
+	 left: 1213px; 
+	 top: 745px; 
+	 position: absolute; 
+	 width: 234px;
+	 height: 235px;
+	 z-index:41;
+} 
+
+ #RoundedRectangle4cop 
+{ 
+	 left: 1212px; 
+	 top: 743px; 
+	 position: absolute; 
+	 width: 236px;
+	 height: 35px;
+	 z-index:42;
+} 
+
+ #ChatForks 
+{ 
+	 left: 1234px; 
+	 top: 755px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 13px;
+	 z-index:43;
+} 
+
+ #EveryThingApple44 
+{ 
+	 left: 1250px; 
+	 top: 798px; 
+	 position: absolute; 
+	 width: 153px;
+	 height: 18px;
+	 z-index:44;
+} 
+
+ #icons8forward100 
+{ 
+	 left: 1229px; 
+	 top: 801px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 13px;
+	 z-index:45;
+} 
+
+ #TechTrending1255 
+{ 
+	 left: 1249px; 
+	 top: 843px; 
+	 position: absolute; 
+	 width: 152px;
+	 height: 18px;
+	 z-index:46;
+} 
+
+ #icons8forward100_0 
+{ 
+	 left: 1229px; 
+	 top: 846px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 13px;
+	 z-index:47;
+} 
+
+ #HardwareIO13 
+{ 
+	 left: 1250px; 
+	 top: 889px; 
+	 position: absolute; 
+	 width: 116px;
+	 height: 18px;
+	 z-index:48;
+} 
+
+ #icons8forward100_1 
+{ 
+	 left: 1229px; 
+	 top: 892px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 13px;
+	 z-index:49;
+} 
+
+ #iPhoneCentral5 
+{ 
+	 left: 1250px; 
+	 top: 940px; 
+	 position: absolute; 
+	 width: 123px;
+	 height: 18px;
+	 z-index:50;
+} 
+
+ #icons8forward100_2 
+{ 
+	 left: 1229px; 
+	 top: 943px; 
+	 position: absolute; 
+	 width: 8px;
+	 height: 13px;
+	 z-index:51;
+} 
+
+ #Layer22 
+{ 
+	 left: 1214px; 
+	 top: 488px; 
+	 position: absolute; 
+	 width: 234px;
+	 height: 235px;
+	 z-index:52;
+} 
+
+ #Layer23 
+{ 
+	 left: 1215px; 
+	 top: 488px; 
+	 position: absolute; 
+	 width: 232px;
+	 height: 234px;
+	 z-index:53;
+} 
+
+ #PeopleinChat25 
+{ 
+	 left: 1232px; 
+	 top: 494px; 
+	 position: absolute; 
+	 width: 141px;
+	 height: 18px;
+	 z-index:54;
+} 
+
+ #RoundedRectangle4 
+{ 
+	 left: 1214px; 
+	 top: 485px; 
+	 position: absolute; 
+	 width: 234px;
+	 height: 35px;
+	 z-index:55;
+} 
+
+ #Mike_0 
+{ 
+	 left: 1232px; 
+	 top: 570px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 14px;
+	 z-index:56;
+} 
+
+ #You 
+{ 
+	 left: 1230px; 
+	 top: 540px; 
+	 position: absolute; 
+	 width: 28px;
+	 height: 13px;
+	 z-index:57;
+} 
+
+ #John 
+{ 
+	 left: 1231px; 
+	 top: 630px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 13px;
+	 z-index:58;
+} 
+
+ #Tommy 
+{ 
+	 left: 1231px; 
+	 top: 601px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 16px;
+	 z-index:59;
+} 
+
+ #Caroline 
+{ 
+	 left: 1231px; 
+	 top: 657px; 
+	 position: absolute; 
+	 width: 60px;
+	 height: 14px;
+	 z-index:60;
+} 
+
+ #icons8starfilled100 
+{ 
+	 left: 1405px; 
+	 top: 537px; 
+	 position: absolute; 
+	 width: 22px;
+	 height: 19px;
+	 z-index:61;
+} 
+
+ #ViewMore 
+{ 
+	 left: 1232px; 
+	 top: 693px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 10px;
+	 z-index:62;
+} 
+
+ #Layer24 
+{ 
+	 left: 171px; 
+	 top: 319px; 
+	 position: absolute; 
+	 width: 305px;
+	 height: 229px;
+	 z-index:63;
+} 
+
+ #RoundedRectangle20 
+{ 
+	 left: 169px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 309px;
+	 height: 61px;
+	 z-index:64;
+} 
+
+ #httpstechcrunchcom20 
+{ 
+	 left: 226px; 
+	 top: 514px; 
+	 position: absolute; 
+	 width: 217px;
+	 height: 17px;
+	 z-index:65;
+} 
+
+ #Layer25 
+{ 
+	 left: 188px; 
+	 top: 504px; 
+	 position: absolute; 
+	 width: 28px;
+	 height: 30px;
+	 z-index:66;
+} 
+
+ #httpscoinmarketcapco 
+{ 
+	 left: 227px; 
+	 top: 396px; 
+	 position: absolute; 
+	 width: 208px;
+	 height: 17px;
+	 z-index:67;
+} 
+
+ #Layer26 
+{ 
+	 left: 187px; 
+	 top: 388px; 
+	 position: absolute; 
+	 width: 31px;
+	 height: 30px;
+	 z-index:68;
+} 
+
+ #httpswwwyoutubecomwa 
+{ 
+	 left: 227px; 
+	 top: 455px; 
+	 position: absolute; 
+	 width: 241px;
+	 height: 17px;
+	 z-index:69;
+} 
+
+ #Layer27 
+{ 
+	 left: 187px; 
+	 top: 453px; 
+	 position: absolute; 
+	 width: 31px;
+	 height: 23px;
+	 z-index:70;
+} 
+
+ #Layer7copy2 
+{ 
+	 left: 192px; 
+	 top: 338px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 23px;
+	 z-index:71;
+} 
+
+ #httpswwwthevergecom2 
+{ 
+	 left: 229px; 
+	 top: 341px; 
+	 position: absolute; 
+	 width: 239px;
+	 height: 17px;
+	 z-index:72;
+} 
+
+ #Layer28 
+{ 
+	 left: 173px; 
+	 top: 570px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 182px;
+	 z-index:73;
+} 
+
+ #RoundedRectangle2cop 
+{ 
+	 left: 171px; 
+	 top: 569px; 
+	 position: absolute; 
+	 width: 307px;
+	 height: 40px;
+	 z-index:74;
+} 
+
+ #RoundedRectangle3 
+{ 
+	 left: 191px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 44px;
+	 height: 31px;
+	 z-index:75;
+} 
+
+ #Layer29 
+{ 
+	 left: 201px; 
+	 top: 578px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 20px;
+	 z-index:76;
+} 
+
+ #RoundedRectangle3cop 
+{ 
+	 left: 251px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 44px;
+	 height: 31px;
+	 z-index:77;
+} 
+
+ #Layer30 
+{ 
+	 left: 258px; 
+	 top: 574px; 
+	 position: absolute; 
+	 width: 30px;
+	 height: 29px;
+	 z-index:78;
+} 
+
+ #RoundedRectangle3cop_0 
+{ 
+	 left: 309px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 45px;
+	 height: 31px;
+	 z-index:79;
+} 
+
+ #Layer32 
+{ 
+	 left: 319px; 
+	 top: 579px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 20px;
+	 z-index:80;
+} 
+
+ #RoundedRectangle3cop_1 
+{ 
+	 left: 371px; 
+	 top: 572px; 
+	 position: absolute; 
+	 width: 44px;
+	 height: 31px;
+	 z-index:81;
+} 
+
+ #Layer33 
+{ 
+	 left: 378px; 
+	 top: 578px; 
+	 position: absolute; 
+	 width: 30px;
+	 height: 19px;
+	 z-index:82;
+} 
+
+ #RoundedRectangle5_0 
+{ 
+	 left: 1213px; 
+	 top: 362px; 
+	 position: absolute; 
+	 width: 207px;
+	 height: 57px;
+	 z-index:83;
+} 
+
+ #ForkChat 
+{ 
+	 left: 1266px; 
+	 top: 383px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 16px;
+	 z-index:84;
+} 
+
+ #ForkPizza 
+{ 
+	 left: 184px; 
+	 top: 237px; 
+	 position: absolute; 
+	 width: 139px;
+	 height: 40px;
+	 z-index:85;
+} 
+
+ #ForkPizzaGeneralTech 
+{ 
+	 left: 185px; 
+	 top: 285px; 
+	 position: absolute; 
+	 width: 178px;
+	 height: 14px;
+	 z-index:86;
+} 
+
+ #Layer4copy2 
+{ 
+	 left: 1408px; 
+	 top: 239px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 40px;
+	 z-index:87;
+} 
+
+ #Graham_0 
+{ 
+	 left: 1314px; 
+	 top: 252px; 
+	 position: absolute; 
+	 width: 74px;
+	 height: 17px;
+	 z-index:88;
+} 
+
+ #Shape1 
+{ 
+	 left: 1283px; 
+	 top: 253px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:89;
+} 
+
+ #0482BTC 
+{ 
+	 left: 1355px; 
+	 top: 297px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 15px;
+	 z-index:90;
+} 
+
+ #Wallet 
+{ 
+	 left: 1285px; 
+	 top: 296px; 
+	 position: absolute; 
+	 width: 63px;
+	 height: 16px;
+	 z-index:91;
+} 
+
+ #Layer34 
+{ 
+	 left: 508px; 
+	 top: 741px; 
+	 position: absolute; 
+	 width: 678px;
+	 height: 41px;
+	 z-index:92;
+} 
+
+ #RoundedRectangle19 
+{ 
+	 left: 506px; 
+	 top: 739px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 44px;
+	 z-index:93;
+} 
+
+ #URL 
+{ 
+	 left: 529px; 
+	 top: 753px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 18px;
+	 z-index:94;
+} 
+
+ #GeneralTech 
+{ 
+	 left: 1218px; 
+	 top: 437px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 20px;
+	 z-index:95;
+} 
